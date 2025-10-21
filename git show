@@ -1,0 +1,54 @@
+[33mcommit 7cf2a4c19401214ed78942d62c61735ab269da1c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: PacoG&G <ingfnoyola@gmail.com>
+Date:   Fri Oct 17 14:58:17 2025 -0600
+
+    First version
+
+ Chapter5/guessNumber.c | 74 [32m++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ 1 file changed, 74 insertions(+)
+
+[33mcommit 9c6af4a5167392a10deacecefbe4360b3d42ca60[m
+Author: PacoG&G <ingfnoyola@gmail.com>
+Date:   Tue Sep 30 16:08:20 2025 -0600
+
+    Le cambiamos el nombre al archivo para que se llame diceRollingGame.c
+
+ Chapter5/{hola.c => diceRollingGame.c} | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+[33mcommit 56efbba078c24989c082cd8118e17f7610c60691[m
+Author: PacoG&G <ingfnoyola@gmail.com>
+Date:   Tue Sep 30 16:05:18 2025 -0600
+
+    feat: Add Chapter5 Craps game
+
+ Chapter5/hola.c | 100 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ 1 file changed, 100 insertions(+)
+
+[33mcommit 1af591e9be48586cc5e64612715b3acf955a915a[m
+Author: PacoG&G <ingfnoyola@gmail.com>
+Date:   Tue Sep 30 11:17:27 2025 -0600
+
+    Fix: Restauramos cashier.c
+
+ cashier.c | 180 [32m+++++++++++++++++++++++++++++[m[31m---------------------------------[m
+ 1 file changed, 84 insertions(+), 96 deletions(-)
+
+[33mcommit 808eda00efb406112b9e525fc3e4a1f59a9a0bed[m
+Author: Paco <ingfnoyola@gmail.com>
+Date:   Fri Aug 8 11:51:17 2025 -0600
+
+    Mi programa conversor, donde ingresas un numero decimal y lo convierte a binario, octal y hexadecimal, sin usar arrays, funciones, apuntadores ni estructuras de datos
+
+ cashier.c                                       | 180 [32m+++++++++++++[m[31m-----------[m
+ decimal-conversor-to-binary-octal-hexadecimal.c | 113 [32m+++++++++++++++[m
+ 2 files changed, 209 insertions(+), 84 deletions(-)
+
+[33mcommit d03cf1f3ebd28c3d803b7c1ce238131f17fdc8c5[m
+Author: Paco <ingfnoyola@gmail.com>
+Date:   Fri Aug 8 11:26:59 2025 -0600
+
+    Mi primer programa de cajero en C, puedes depositar, retirar y ver balance, ademas de ver las 4 operaciones anteriores. Este programa solo es en base a los temas vistos hasta el capitulo del libro, por lo que solo usamos las operaciones basicas de C, sin arrays, apuntadores ni estructuras de datos, incluso sin funciones
+
+ cashier.c | 101 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ 1 file changed, 101 insertions(+)
