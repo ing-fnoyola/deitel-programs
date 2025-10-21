@@ -16,28 +16,17 @@ int main(void) {
         int win = 0;
 
         printf("Im thinking in a number between 1-1000. Try to guess!\n");
-        int lock = scanf("%d", &guess);
 
-        if(lock == 1) {
-
-            if(guess == -1) {
-                r = -1;
-            } else {
+        while(win != 1) {
+            int lock1 = scanf("%d", &guess);
+            if(lock1 == 1) {
                 win = guessNumber(number, guess);
-
-                while(win != 1) {
-                    int lock1 = scanf("%d", &guess);
-                    if(lock1 == 1) {
-                        win = guessNumber(number, guess);
-                    } else {    
-                        r = validate();
-                    }
+            } else {    
+                r = validate();
+                if(r == -1) {
+                    break;
                 }
             }
-            
-
-        } else {
-            r = validate();
         }
       
     }
